@@ -1,0 +1,322 @@
+* {
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+   
+}
+body {
+    background-color: #f8f8f8;
+
+}
+
+.back {
+    border: 1.5px solid #000;
+    border-radius: 15px;
+    height:5vh;
+    width:15vh;
+    place-content: center;
+    background-color: #5441411e;
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 5vh;
+    margin-left: 20px;
+
+}
+.back a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: monument;
+
+}
+#backarrow {
+    height: 10px;
+    width: 5px;
+    position:absolute;
+    top: 20px;
+    left: 35px
+}
+#backbtn {
+    position: absolute;
+    top: 5px;
+    left: 17px;
+    font-size: 2.5vh;
+    font-family: monument;
+    letter-spacing: 0.5px;
+}
+/*new page*/
+.elements{
+    height: 2%;
+    
+}
+#alphabet {
+
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+#alphabet h5 {
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #000;
+    margin-right: 2vw;
+}
+#alphabet h6 {
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    padding: 0.6vw 0.8vw;
+    border-radius: 50%;
+    border: 1px solid #00000000;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#alphabet h6:hover {
+    border: 1px solid #000;
+}
+    
+#page2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    
+}
+#page2-part1 {
+   
+    height: 90%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1531518326825-96490ddf2a89?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+#page2-part2 {
+    
+    height: 100%;
+    width: 46%;
+    
+}
+
+#para2 img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#text {
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 5px;
+
+}
+#textOne {
+    line-height: 20px;
+    font-size: 1.5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+   
+    width: 30%;
+}
+#textTwo {
+    width: 44%;
+    font-size: 1vw;
+}
+#textThree {
+    padding-left: 90px;
+   
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -4px;
+}
+#page2-part3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    padding-top: 5vw;
+    
+}
+#first {
+    height: 20%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+}
+#first img {
+    padding-right: 90px;
+    padding-bottom: 50px;
+    height: 30vw;
+    padding-top: 10vw;
+}
+
+#first p {
+    padding-top: 10vw;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    padding-left: -1vw;
+
+}
+#second {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20vw;
+}
+#page2-part4{
+    height: 130%;
+    width:80%;
+    padding: 4vw;
+    padding-top: 10vw;
+}
+#page2-part4 img {
+    height: 40vw;
+    width: 90vw;
+    
+   
+}
+#footer {
+    height: 15vh;
+    width: 100%;
+    position: relative;
+    margin-top: 20vh;
+    display: flex;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    
+}
+#logo h1::after {
+    content: "©️";
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 18px;
+    position: absolute;
+    top: 5%;
+    left: 11.5%;
+}
+#logo h1::before {
+    content: "model management";
+    font-family: gilroy;
+    font-weight: lighter;
+    font-size: 12.5px;
+    position: absolute;
+    color: #666;
+    top: 37%;
+    left: 8%;
+    letter-spacing: 0.5px;
+}
+#footer #logo h1 {
+    
+    height: 100%;
+    width: 20%;
+    font-family: Protest Revolution;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+#logo {
+    height: 100%;
+    width: 20%;
+    padding-left: 25px;
+}
+#footOne {
+    height: 100%;
+    width: 17%;
+    padding-left: 15vh;
+    padding-top: 2vh;
+    border-right: 3px solid #000;
+}
+#footTwo{
+    height: 100%;
+    width: 20%;
+    padding-left: 12vh;
+    padding-top: 2vh;
+    border-right: 3px solid #000;
+}
+#footThree {
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+#part1 {
+    position: relative;
+    padding-left: 15vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-bottom: 3px solid #000;;
+}
+#part2 {
+    position: relative;
+    padding-left: 15vh;
+    margin-top: 2vh;
+
+}
+#links {
+    height: 20%;
+    width: 20vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 7px;
+
+}
+#links i {
+    transform: scale(0.8);
+}
+#links i:hover::before {
+    filter: blur(0.5px);
+    transform: scale(1.7);
+    box-shadow: 1px 2px 12px #685d5d85;
+}
+#links i:hover {
+    cursor: pointer;
+    transition: linear 2s ease;
+    border-radius: 10px;
+    color: rgb(25, 101, 142);
+    height: 2%;
+    transition: 0.5s;
+}
+#lastpara {
+    padding-bottom: 15px;
+}
+#lastpara p {
+    line-height: 13px;
+    font-size: 2vh;
+    font-weight: 600;
+}
